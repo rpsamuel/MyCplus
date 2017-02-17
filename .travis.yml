@@ -1,4 +1,4 @@
-e new trusty images, should yield newer compilers and packages
+# Use new trusty images, should yield newer compilers and packages
 sudo: required
 dist: precise
 language: cpp
