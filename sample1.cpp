@@ -1,19 +1,15 @@
 #include <iostream>
+#include <cmath>
 
-int mult (int x, int y) {
-  int result;
-  result = 0;
-  while (y != 0) {
-    result = result + x;
-   y = y - 1;
-  }
-  return(result);
-}
+using namespace std;
 
-int main () {
-  int x, y;
-  cout << "Enter two natural numbers: ";
-  cin >> x >> y;
-  cout << x << " * " << y << " = " << mult(x,y) << endl;
-  return(0);
+int main()
+{
+	int x = 0;
+	while(x < 10) {
+		double y = sqrt((double)x);
+		cout << "The square root of " << x << " is " << y << endl;
+		x++;
+	}
+	return 0;
 }
