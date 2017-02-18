@@ -1,4 +1,4 @@
-#include <iostream.h>
+#include <iostream>
 
 int mult (int x, int y) {
   int result;
